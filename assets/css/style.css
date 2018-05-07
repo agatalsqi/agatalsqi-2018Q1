@@ -1,1 +1,629 @@
-newe
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700|Lato|Open+Sans:400,400i,700|Yeseva+One');
+
+body {
+	background: #f5f4f3;
+	font-family: serif;
+	color: #4c4c4c;
+	font-size: 21px;
+	position: relative;
+	padding-bottom: 320px;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper-with-bg {
+	background-image: url('../img/bg1.png');
+	box-shadow: 0 6px 20px rgba(0,0,0,0.8); 
+	width: 1600px;
+	margin: 0 auto;
+	min-height: calc(100%-320px);
+}
+
+header, footer, .footer-column, .promo-section, .menu-section, .reviews-section, .reservations-section, .ingredients-description, .promo-heading {
+	overflow: hidden;
+}
+
+header {
+	background-image: url('../img/header-gradient.png');
+	display: flex;
+	height: 157px;
+	position: absolute;
+	width: 1600px;
+}
+
+.logo-container {
+	width: 485px;
+	height: 110px;
+}
+
+.logo-container img {
+	display: block;
+	margin: 47px 151px 37px 179px;
+}
+
+nav {
+	margin-left: 50px;
+	height: 110px;
+	overflow: hidden;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	color: #FFF;
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: bold;
+}
+
+nav li:hover {
+	border-top: 3px solid rgba(225,225,225,0.71);
+}
+
+nav li {
+	line-height: 19px;
+	border-top: 3px solid transparent;
+	padding: 47px 10.5px 0;
+	float: left;
+	text-align: center;
+	color: #FFF;
+	margin-left: 27px;
+}
+
+.social-icons {
+	height: 110px;
+	overflow: hidden;
+	line-height: 19px;
+	margin-left: 8px;
+}
+
+.social-icons a {
+	color: #dab33e;
+}
+
+.social-icons li {
+	margin: 52px 18px 0 0;
+	float: left;
+}
+
+.social-icons li:hover {
+	color: #FFF;
+}
+
+.promo-section {
+	height: 750px;
+	background-image: url('../img/background-promo.jpg');
+}
+
+.promo-heading {
+	padding-top: 212px;
+	margin: auto;
+	width: 970px;
+	height: 474px;
+	color: rgba(255,255,255,0.96);
+	text-shadow: 1px 1px 1px #000;
+	line-height: 1.34;
+}
+
+.divider-img {
+	display: block;
+	margin: auto;
+}
+
+.about-section {
+	height: 710px;
+	background-image: url('../img/background-about.jpg');
+}
+
+.about-text {
+	width: 430px;
+	height: 130px;
+	overflow: hidden;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.ingredients-section {
+	height: 758px;
+	background-image: url('../img/background-ingredients.jpg');
+	text-align: center;
+}
+
+.ingredients-description {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 1.55;
+	width: 435px;
+	height: 130px;
+	padding-top: 4px;
+	margin: auto;
+}
+
+.menu-section {
+	height: 994px;
+	background-image: url('../img/background-menu.jpg');
+}
+
+.reviews-section {
+	height: 758px;
+	background-image: url('../img/background-reviews.jpg');
+	padding-top: 100px;
+}
+
+.reservations-section {
+	height: 710px;
+	font-size: 0;
+	background-image: url('../img/background-reservations.jpg');
+}
+
+h2, h3, h4 {
+	font-family: 'Yeseva One', cursive, serif;
+}
+
+
+h2 {
+	font-size: 89px;
+}
+
+h3 {
+	height: 100px;
+	font-size: 36px;
+	line-height: 45px;
+}
+
+h4 {
+	font-size: 22px;
+	line-height: 53px;
+}
+
+.animated {
+	transition: all 0.3s ease-in-out;
+}
+
+.dark-semitransparent-bg {
+	background-color: rgba(0,0,0,0.55);
+}
+
+.light-semitransparent-bg {
+	background-color: rgba(255,255,255,0.2);
+}
+
+.dark-button { 
+	border: 1px solid rgba(0,0,0,0.6);
+	color: white;
+}
+
+.dark-button:hover {
+	background-color: #000;
+}
+
+.light-button {
+	border: 1px solid rgba(255,255,255,0.6);
+}
+
+.light-button:hover {
+	background-color: transparent;
+}
+
+.gold, .payment-systems li:hover, .footer-social-icons li:hover {
+	color: #cc9900;
+}
+
+.promo-buttons-container {
+	padding: 0 26px;
+	margin: auto;
+	width: 570px;
+	height: 233px;
+}
+
+.promo-content form {
+	display: inline;
+}
+
+.promo-button {
+	font-family: 'Lato', sans-serif;
+	float: left;
+	text-transform: uppercase;
+	width: 228px;
+	height: 57px;
+	color: #FFF;
+	font-size: 18px;
+	margin: 34px 15px 142px 15px;
+	padding-top: 3px;
+}
+
+.promo-button:focus {
+	outline: #cc9900 solid 1px;
+}
+
+.promo-content img {
+	display: block;
+	margin: 34px auto;
+}
+
+.about-content {
+	width: 430px;
+	margin: 0 0 0 285px;
+	padding: 100px 0 0 0;
+	display: inline-block;
+	float: left;
+}
+
+.about-content h3:after, .menu-section h3:after, .reservations-section h3:after {
+	margin: 0 0 20px;
+	display: block;
+	content: url(../img/divider-gold.png);
+}
+
+.ingredients-section h3:after, .reviews-section h3:after {
+	margin: 0 0 20px;
+	display: block;
+	content: url(../img/divider-white.png);
+}
+
+.about-content article {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 1.55;
+	height: 225px;
+	overflow: hidden;
+}
+
+.about-content img {
+	margin: 49px 0 0 70px;
+}
+
+.about-image {
+	padding: 55px 24px;
+	width: 885px;
+	height: inherit;
+	display: inline-block;
+}
+
+.about-wrapper, .reservations-wrapper {
+	height: inherit;
+	background-image: url('../img/bg1.png');
+}
+
+.ingredients-section {
+	display: inline-block;
+	color: #FFF;
+}
+
+.ingredients-content {
+	margin: 100px 215px 101px 815px;
+	padding-top: 76px;
+	width: 570px;
+	height: 557px;
+}
+
+.menu-section {
+	font-size: 0;
+}
+
+.menu-wrapper {
+	height: inherit;
+	background-image: url('../img/bg2.png');
+	padding-left: 125px;
+}
+
+.menu-column {
+	margin-top: 100px;
+	margin-left: 145px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.menu-element {
+	margin-bottom: 50px;
+}
+
+.menu-element p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.special {
+	border: 1px solid rgb(204,153,0,0.35);
+	position: relative;
+}
+
+.special:before {
+	position: absolute;
+	top: -22px;
+	right: -1px;
+	content: 'Special';
+	color: #FFF;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	width: 69px;
+	background-image: url('../img/featured-item.png');
+}
+
+.menu-column h3, h4 {
+	text-align: center;
+}
+
+.price-item h4:nth-of-type(even) {
+	float: right;
+}
+
+.price-item h4:nth-of-type(odd) {
+	float: left;
+}
+
+.dish dd {
+ 	width: 430px;
+ 	height: 40px;
+ 	line-height: 40px;
+ 	margin: auto;
+ 	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+.price-item h4 {
+	font-size: 21px;
+	line-height: 40px;
+}
+
+.price-item {
+	margin: auto;
+	width: 430px;
+	height: 40px;
+	border-bottom: 1px solid rgb(204,153,0,0.4);
+}
+
+.mini-gallery {
+	margin-top: 63px;
+	font-size: 0;
+}
+
+.mini-gallery img {
+	margin: 0 15px;
+	border-radius:50%;
+	border: 5px solid rgba(255,255,255,0.09);
+}
+
+.review-container {
+	margin: auto;
+	width: 770px;
+	height: 557px;
+	color: #FFF;
+	padding-top: 76px;
+	position: relative;
+}
+
+.review-text blockquote:before {
+	content: url(../img/quote.png);
+	position: absolute;
+	left: 31px;
+	top: 165px;
+}
+
+.review-text blockquote {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 1.8;
+}
+
+.review-text {
+	margin: auto;
+	width: 625px;
+	height: 228px;
+	overflow: hidden;
+}
+
+.review-author {
+	margin-top: 28px;
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+}
+
+.reservations-images {
+	width: 600px;
+	float: left;
+	margin-left: 185px;
+	padding-top: 100px;
+}
+
+.reservations-images img {
+	margin-left: 30px;
+}
+
+.reservations-text {
+	width: 430px;
+	padding-top: 5px;
+	margin: auto;
+	line-height: 1.55;
+}
+
+.reservations-content {
+	margin: 95px 0 0 85px;
+	height: 512px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	float: left;
+	width: 460px;
+	position: relative;
+}
+
+.reservations-content form {
+	width: 460px;
+	height: 241px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 0;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+}
+
+.reservations-content button {
+	display: block;
+	margin: auto;
+}
+
+.reservations-content p {
+	margin-bottom: 10px;
+}
+
+.reservations-content label {
+	color: #c9a131;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	line-height: 1.3;
+	display: block;
+}
+
+.reservations-content button {
+	border: none;
+	background-color: #c9a131;
+	font-family: 'Lato', sans-serif;
+	font-size: 16.5px;
+	width: 200px;
+	height: 36px;
+	color: #FFF;
+	margin-top: 9px;
+}
+
+.reservations-content button:hover {
+	background-color: #ac8929;
+}
+
+.centred-text {
+	text-align: center;	
+}
+
+.dish {
+	width: 455px;
+	height: 81px;
+	margin-bottom: 18px;
+}
+
+.reservation-form-column {
+	margin: 30px 15px 0;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.reservation-field {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	width: 200px;
+	height: 36px;
+	border: 1px solid #c8c6c6;
+	padding: 0 15px;
+	margin-bottom: 24px;
+}
+
+.reservation-field:focus {
+	border-color: #c89f2d;
+	outline: none;
+}
+
+input {
+	position: relative;
+	background-color: #f7f8f8;
+}
+
+.calendar, .dropdown {
+	position: relative;
+}
+
+.calendar:after {
+	content: url(../img/calendar-icon.png);
+	position: absolute;
+	right: 12px;
+	top: 33px;
+	z-index: 1;
+} 
+
+.dropdown:after {
+	content: url(../img/dropdown-icon.png);
+	position: absolute;
+	right: 15px;
+	top: 39px;
+	z-index: 1;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 800px);
+	height: 320px;
+	background-color: #191919;
+	width: 1600px;
+	margin: 0 auto;
+	color: #FFF;
+	padding: 42px 185px 0;
+	font-size: 0;
+	box-shadow: 0 6px 20px rgba(0,0,0,0.8); 
+}
+
+footer h4:after {
+	background-image: url('../img/divider-white.png');
+	background-size: 199px 19px;
+	display: block;
+	margin: 0 auto 19px;
+	width: 199px; 
+	height: 19px;
+	content: '';
+}
+
+.footer-column {
+	display: inline-block;
+	width: 370px;
+	height: 230px;
+	margin-left: 30px;
+	position: relative;
+}
+
+.footer-column p, .footer-column address {
+	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.payment-systems {
+	position: absolute;
+	transform: scale(1.25, 1);
+	left: calc(50% - 48px);
+}
+
+.payment-systems li {
+	margin: 0 4.5px;
+}
+
+.footer-social-icons {
+	left: calc(50% - 43px);
+}
+
+.footer-social-icons, .payment-systems {
+	font-size: 17px;
+	position: absolute;
+	bottom: 22px;
+}
+
+.footer-social-icons li, .payment-systems li {
+	color: #FFF;
+	float: left;
+}
+
+.footer-social-icons li {
+	margin: 0 5.5px; 
+}
